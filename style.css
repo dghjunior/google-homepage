@@ -24,6 +24,7 @@
   height: 30px;
   width: 120px;
   margin: 11px 15px 0 auto;
+  cursor: pointer;
 }
 
 body {
@@ -89,4 +90,8 @@ footer {
   float: left;
   text-align: left;
   padding-left: 30px;
+}
+
+li:hover {
+  text-decoration: underline;
 }
