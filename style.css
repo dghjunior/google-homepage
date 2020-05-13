@@ -1,7 +1,7 @@
 .image {
   display: block;
   margin: 0 auto;
-  padding-top: 90px;
+  padding-top: 130px;
 }
 
 .search {
@@ -38,6 +38,7 @@ ul {
   padding: 0;
   color: #5F6368;
   font-family: arial, sans-seriff;
+  font-size: 13px;
 }
 li {
   float: left;
@@ -48,12 +49,12 @@ li {
   text-align: center;
   padding: 14px 15px;
   text-decoration: none;
-  color: #5F6368
+  color: #5F6368;
 }
 
 .signin {
   position: absolute;
-  right: 0;
+  right: 30px;
   top: 7px;
   background-color: #4885ed;
   color: white;
@@ -62,7 +63,7 @@ li {
   border-radius: 2px;
   padding: 7px 15px 7px 15px;
   font-size: 15px;
-  
+  font-weight: bold;
 }
 
 .container{
@@ -72,17 +73,17 @@ li {
 .footerright {
   position: fixed;
   right: 0;
-  top: 650px;
+  bottom: 0;
   background: #e3e3e3;
-  padding-bottom: 50px;
   padding-left: 1200px;
+  padding-right: 30px;
 }
 
 .footerleft {
   position: fixed;
   left: 0;
-  top: 650px;
+  bottom: 0;
   background: #e3e3e3;
-  padding-bottom: 50px;
   padding-right: 1200px;
+  padding-left: 30px;
 }
